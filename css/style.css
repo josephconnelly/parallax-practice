@@ -2,9 +2,53 @@
 
 
 
-#jumbotron, .navbar {
-  background-image: url(https://images.pexels.com/photos/1561020/pexels-photo-1561020.jpeg?cs=srgb&dl=pexels-zaksheuskaya-1561020.jpg&fm=jpg);
-
+#section-1 {
+  background: url(http://127.0.0.1:5500/image/deer.jpg) no-repeat center center ;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
+  }
 
+  #section-2 {
+    background: url(http://127.0.0.1:5500/image/puppies.jpg) no-repeat center center ;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+    
+    }
+
+    #section-3 {
+      background: url(/image/kittens.jpg) no-repeat center center ;  
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      
+      }
+  #jumbotron {
+    
+    background-size: cover;
+  }
+
+
+.navbar {
+  position: fixed;
 }
